@@ -21,7 +21,8 @@ Route::get('/', function () {
         'canRegister' => Route::has('register'),
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
-        App\Http\Controllers\PageController::class, 'dashboard'
+        App\Http\Controllers\PageController::class, 'dashboard',
+        // 'notes' => Route::resource('notes', App\Http\Controllers\NoteController::class)
     ]);
 });
 

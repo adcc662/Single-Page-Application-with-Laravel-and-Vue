@@ -22,7 +22,7 @@
                                 <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
                                     Dashboard
                                 </jet-nav-link>
-                                 <jet-nav-link :href="route('notes.app')" :active="route().current('notes.*')">
+                                 <jet-nav-link :href="route('notes.index')" :active="route().current('notes.*')">
                                     Notes
                                 </jet-nav-link>
                             </div>
@@ -148,7 +148,7 @@
                         <jet-responsive-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
                             Dashboard
                         </jet-responsive-nav-link>
-                         <jet-responsive-nav-link :href="route('notes.app')" :active="route().current('notes.*')">
+                         <jet-responsive-nav-link :href="route('notes.index')" :active="route().current('notes.*')">
                             Notes
                         </jet-responsive-nav-link>
                     </div>

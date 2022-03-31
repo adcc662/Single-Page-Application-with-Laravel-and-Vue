@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function dashboard (){
-        return Inertia::render('Welcome');
+        return Inertia::render('Dashboard');
 
     }
 }
